@@ -4,9 +4,9 @@ function api_query($api_name, array $req = array())
     $NONCE = $mt[1] . substr($mt[0], 2, 6);
 
     // API settings
-    $key = ""; //TODO replace with your api key from profile page
-    $secret = ""; //TODO replace with your api secret from profile page
-
+    $key = "K-381620d55dff64c630c8a56f6db7b522aa9d9d49"; //TODO replace with your api key from profile page
+    $secret = "S-a825ee2826908ab6890bd0822fb48209119b95f4"; //TODO replace with your api secret from profile page
+    $api_name = "trades";
     $url = "http://api.exmo.com/v1/$api_name";
 
     $req['nonce'] = $NONCE;
